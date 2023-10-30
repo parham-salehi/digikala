@@ -1,0 +1,22 @@
+div.story {
+  width: 100%;
+  height: 150px;
+  box-shadow: 0 2px 3px lightgray;
+  text-align: center;
+}
+div.story > div {
+  width: 80px;
+  height: 150px;
+  display: inline-block;
+  margin: 0 30px;
+}
+div.story > div > a > img {
+  width: 80px;
+  margin-top: 20px;
+  border-radius: 50%;
+  outline: 2px red solid;
+  outline-offset: 3px;
+}
+div.story > div > a > p {
+  margin-top: 10px;
+}

@@ -1,0 +1,75 @@
+div.slider2 {
+  width: 90%;
+  height: 320px;
+  background-color: #e9414e;
+  border-radius: 15px;
+  padding: 15px 10px 15px 0;
+  margin: 5px auto;
+}
+div.slider2 > div {
+  width: 170px;
+
+  background-color: #e9414e;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: -4px;
+}
+div.slider2 > div.slider2-box {
+  background-color: #e9414e;
+  vertical-align: top;
+  height: 100%;
+  width: calc(100% - 170px);
+  margin-right: -4px;
+}
+
+div.slider2 > div > svg {
+  width: 40%;
+}
+div.slider2 > div > img {
+  display: block;
+  width: 100px;
+  margin-right: 35px;
+}
+div.slider2 > div > a {
+  color: whitesmoke;
+  margin-top: 40px;
+}
+.slider2-slide {
+  width: 80%;
+  text-align: center;
+  margin: 10px auto;
+  background-color: rgba(228, 231, 233, 0.327);
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+div.takhfif {
+  margin-left: 10px;
+  background-color: red;
+  width: 30px;
+  height: 15px;
+  color: white;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+p.through {
+  text-decoration: line-through;
+}

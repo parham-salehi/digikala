@@ -1,0 +1,14 @@
+div.story3 {
+  width: 90%;
+  height: 250px;
+  margin: 5px auto;
+  text-align: center;
+}
+div.story3 > img {
+  width: 24.6%;
+  margin-left: 0.1%;
+  border-radius: 20px;
+}
+div.story3 > img:nth-of-type(4) {
+  margin-left: 0;
+}

@@ -1,0 +1,12 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: yek;
+}
+@font-face {
+  font-family: yek;
+  src: url(../fonts/farsi/IRANYekanWeb-Medium.eot);
+  src: url(../fonts/farsi/IRANYekanWeb-Medium.ttf);
+  src: url(../fonts/farsi/IRANYekanWeb-Medium.woff);
+  src: url(../fonts/farsi/IRANYekanWeb-Medium.woff2);
+}

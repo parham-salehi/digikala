@@ -1,0 +1,145 @@
+a {
+  text-decoration: none;
+  display: block;
+}
+a.bold {
+  font-size: 16px;
+  color: #2b2b2b;
+  border-right: 2px solid red;
+  height: 20px;
+  line-height: 20px;
+  padding: unset;
+  padding-right: 10px;
+  margin-top: 20px;
+}
+
+.wrapper .header .headerButton .headerButtonRight div.menu {
+  display: inline-block;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  margin-right: 20px;
+}
+.wrapper .header .headerButton .headerButtonRight div.menu .subMenu {
+  width: 70vw;
+  height: 50vh;
+  position: absolute;
+  background-color: #ffffff;
+  z-index: 9;
+  top: 40px;
+  display: none;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.wrapper .header .headerButton .headerButtonRight div.menu .subMenu div.subMenuRight {
+  direction: ltr;
+  text-align: right;
+  width: 15%;
+  background-color: #f0f0f1ce;
+  height: inherit;
+  top: 40px;
+  right: 10px;
+  display: none;
+  overflow: auto;
+  box-sizing: border-box;
+  margin-right: 0;
+}
+div.wrapper > div.header > div.headerButton > div.headerButtonRight > div.menu > div.subMenu > div.subMenuRight > div > a {
+  border: none;
+  margin-right: 10px;
+  height: 40px;
+  font-size: 12px;
+  color: #2b2b2b;
+}
+
+.wrapper .header .headerButton .headerButtonRight .menu .subMenu .subMenuRight div .subMenuLeft {
+  position: absolute;
+  width: 85%;
+  height: 50vh;
+  overflow: auto;
+  left: 0;
+  top: 0;
+  display: none;
+  margin-right: 0;
+  text-align: right;
+  padding: 20px;
+  box-sizing: border-box;
+  /* background-colornokteye asli defult shodan bood ke rooye ham nayoftan neveshte ha*/
+  background-color: rgb(251, 251, 247);
+  /* z-index: 1; */
+}
+.wrapper .header .headerButton .headerButtonRight div.menu .subMenu div.subMenuRight div.subMenuLeft div:nth-of-type(1) {
+  direction: rtl;
+}
+
+.wrapper .header .headerButton .headerButtonRight div.menu .subMenu div.subMenuRight div.subMenuLeft div:nth-of-type(1) > a {
+  width: 20%;
+  margin-right: 10px;
+}
+
+.wrapper .header .headerButton .headerButtonRight div.menu .subMenu div.subMenuRight div.subMenuLeft div.in {
+  width: calc(100% / 4);
+  margin-left: -3px;
+  vertical-align: top;
+  border: none;
+}
+.wrapper .header .headerButton .headerButtonRight div.menu .subMenu div.subMenuRight div.subMenuLeft div.in a {
+  font-size: 13px;
+  color: rgb(128, 123, 123);
+  display: block;
+  margin-bottom: 10px;
+}
+.wrapper .header .headerButton .headerButtonRight div.menu .subMenu div.subMenuRight div.subMenuLeft div.in a.bold {
+  color: #2b2b2b;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: black;
+}
+::-webkit-scrollbar-track {
+  width: 5px;
+  color: red;
+}
+
+/* hover  */
+/* --------------------------------------------------------------------------------------------- */
+
+.wrapper .header .headerButton .headerButtonRight div.menu:hover .subMenu .subMenuRight {
+  display: block;
+}
+
+.active {
+  display: block !important;
+}
+
+.wrapper > .header > .headerButton > .headerButtonRight > div.menu > .subMenu > div.subMenuRight > div.mobile:hover > div.subMenuLeft {
+  display: block;
+}
+
+.wrapper > .header > .headerButton > .headerButtonRight > div.menu > .subMenu > div.subMenuRight > div:hover > a {
+  color: red;
+}
+.wrapper > .header > .headerButton > .headerButtonRight > div.menu > .subMenu > div.subMenuRight > div .subMenuLeft div a:hover {
+  color: red;
+}
+.wrapper > .header > .headerButton > .headerButtonRight > div.menu > .subMenu > div.subMenuRight > div .subMenuLeft div a.bold:hover {
+  color: red;
+}
+
+.wrapper > .header > .headerButton > .headerButtonRight > div.menu > .subMenu > div.subMenuRight > div:hover {
+  background-color: #ffffff;
+}
+
+.wrapper .header .headerButton .headerButtonRight div.menu:hover .subMenu {
+  display: block;
+}
+.wrapper .header .headerButton .headerButtonRight div.menu .subMenu div.subMenuRight div:hover div.subMenuLeft {
+  display: block;
+}
+/* end hover ----------------------------------------------------------------- */
